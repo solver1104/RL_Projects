@@ -8,6 +8,11 @@ This folder contains an implementation for a Deep Q Network and trained weights 
 
 This folder contains an implementation for the Twin Delayed DDPG algorithm and trained weights for OpenAI Gym's BipedalWalker environment. The humanoid agent learns to walk on uneven terrain by controlling its joints while minimizing the energy used to do so. It achieves a consistent score of 312 after training, surpassing the 300 threshold for "solving" the environment.
 
+### Trained Model Demonstration
+![TD3 Demonstration](https://github.com/solver1104/RL_Projects/blob/main/policy_demonstration.gif)
+
 ## SAC
 This folder contains an implementation for the Soft Actor-Critic method and trained weights for it to play OpenAI Gym's CarRacing environment. The agent learns to play a simple racing game from the pixels of the game, and is rewarded for driving the track faster. The track is randomized at the beginning of each iteration, so the agent must learn a robust policy that can drive effectively in multiple track layouts. It achieves an average score of 907 after training, surpassing the 900 threshold for "solving" the environment.
 
+### Trained Model Demonstration
+![SAC Demonstration](https://github.com/solver1104/RL_Projects/blob/main/CarRacingSAC1.gif)
